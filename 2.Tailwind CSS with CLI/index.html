@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind CSS with CLI</title>
+    <link rel="stylesheet" href="output.css">
 </head>
+
 <body>
-    <h1>Tailwind CSS with CLI</h1>
+    <h1 class="bg-pink-500 text-white text-xl p-2">Tailwind CSS with CLI</h1>
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mt-4 px-4 rounded-l">Click Me</button>
 </body>
 </html>
+
+<!-- npx @tailwindcss/cli -i style.css -o output.css --watch -->
